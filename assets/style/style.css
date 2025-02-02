@@ -1,0 +1,77 @@
+body {
+  margin-left: 2%;
+}
+
+.title {
+  font-size: 3vw;
+  font-weight: bolder;
+}
+
+.subtitle {
+  font-size: 2.5vw;
+  color: rgb(19, 33, 155);
+}
+
+.username {
+  display: flex;
+  flex-direction: column;
+}
+
+#name {
+  width: 40%;
+  margin-top: 1%;
+  margin-bottom: 2.5%;
+}
+
+.avatar {
+  display: flex;
+  flex-direction: column; 
+}
+
+#link {
+  width: 40%;
+  margin-top: 1%;
+  margin-bottom: 2.5%;  
+}
+
+.feedback {
+  display: flex;
+  flex-direction: column;  
+}
+
+#comments {
+  width: 40%;
+  margin-top: 1%;
+  margin-bottom: 2.5%;
+}
+
+.button {
+  background-color: rgb(19, 33, 155);
+  color: rgb(255, 255, 255)
+}
+
+#comments-section {
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 5vw;
+  }
+
+  .subtitle {
+    font-size: 4.5vw;
+  }
+
+  #name {
+    width: 90%;
+  } 
+
+  #link {
+    width: 90%;
+  } 
+
+  #comments {
+    width: 90%;
+  } 
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="stylesheet" href="./assets/style/style.css">
+  <link rel="shortcut icon" href="#" type="image/svg">  
+  <title>Document</title>
+</head>
+
+<body>
+  <h1 class="title">Сервис комментариев со спам-фильтром</h1>
+  <h2 class="subtitle">Оставьте ваш комментарий</h2>
+
+  <form class="container">
+    <div class="username">
+      <label for="name">Введите ваше имя:</label>
+      <input type="text" id="name"/>
+    </div>
+
+    <div class="avatar">
+      <label for="link">Введите ссылку вашего аватара:</label>
+      <input type="url" id="link"/>
+    </div>
+
+    <div class="feedback">
+      <label for="comments">Оставьте комментарий:</label>
+      <textarea rows="8" id="comments"></textarea>
+    </div>
+  
+    <button id="submit" class="button">Отправить</button>
+  </form>
+
+  <div id="comments-section"></div>
+
+  <script src="./assets/script/index.js"></script>
+</body>
+</html>
