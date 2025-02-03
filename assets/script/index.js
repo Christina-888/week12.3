@@ -13,7 +13,7 @@ const formattedName = (name) => {
 
 //Цензура:
 const findSpam = (inputText) => {
-  const spamWords = ['viagra', 'xxx'];
+  const spamWords = ['viagra', 'сука', 'пидор', 'мудак', 'merde', 'bitch'];
   return spamWords.reduce((result, word) => {
     let regexp = new RegExp(word, 'gi');
     return result.replace(regexp, '***');
