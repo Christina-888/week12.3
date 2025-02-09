@@ -12,6 +12,12 @@ body {
   color: rgb(19, 33, 155);
 }
 
+.checkbox-container {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color:rgb(19, 33, 155)  
+}
+
 .username {
   display: flex;
   flex-direction: column;
